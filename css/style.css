@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{ margin: 0;  box-sizing: border-box; }      
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header div.descuentos{background-color: #1CD1B0;
+            font-size: 15 px;
+            padding: 10px;
+            width: 99%;
+ 
+}
+main h1{
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    background-color: #00669F;
+    font-size: 40 px;
+    padding: 28px 28px 26px;
+    width: 99%;
+}
+
+main section{ 
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main section article{ 
+    
+    border-radius: 16px;
+    margin: 25px;
+    width: 300px;
+    text-align: center;
+}
+
+main section article div.contenido h3{
+    text-transform: uppercase;
+}
+
+main section article div.background_img{
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    padding: 16px 21px 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+
+main section article img.avatar{
+    border-radius: 50%;
+    width:45%;
+    height: 120px;
+    position: relative;
+    left: 5px;
+    top: -45px;
+        
+}
+
+main section article div.batman{
+    background-image: url("../img/background-batman.png");
+}
+main section article div.mujermaravilla{
+    background-image: url("../img/background-mujermaravilla.png");
+}
+
+main section article div.superman{
+    background-image: url("../img/background-superman.png");
+}
+
+main section article div.harley_quinn{
+    background-image: url("../img/background-harleyquinn.png");
+}
+
+/*main section article div.corazon{
+    width:15%;
+}*/
+
+.fas.fa-heart{
+    color: #CC2424;
+    font-size: 30px;
+}
+
+main section article div.contenido{
+    background-color: #F3F3F3;
+    text-align:center;
+    box-shadow: 0px 5px 3px grey;
+    position: relative;
+    z-index: -5;
+    padding: 120px 16px 104px;
+    bottom: 150px;
+
+}
+
+main section article div.contenido p{
+    text-align: left;
+    font-size: 16px;
+    font-weight:400;
+    
+
+}
+main section article div.contenido button{
+    background-color: #00669F;
+    color:#F3F3F3;
+    width: 38%;
+    position: absolute;
+    left: 85px;
+    bottom: 30px;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    padding: 15px 37px; 
+    
+} 
+
+main section article div.contenido h3.sin_uppercase{ 
+    text-transform: capitalize;
+}
+
+footer{background: #00669F;
+       color: #FFF9F9;
+       font-size: 16px;
+       padding: 16px;
+       width: 99%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    
+      }
+
+@media (max-width: 760px){
+    
+   
+
+    main section article.harley{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 450px){
+      
+}
